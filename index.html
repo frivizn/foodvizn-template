@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <meta
+      name="description"
+      content="Find the best restaurants that deliver. Get contactless delivery for restaurant takeout, groceries, and more! Order food online or in the FoodVizn app and support local restaurants." />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="img/favicon/favicon.png" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/favicon/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/global.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
+    <!-- Ionic icons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script
+      defer
+      src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
+
+    <script defer src="js/script.js"></script>
+
+    <title>FoodVizn &mdash; Food Ordering System</title>
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header class="header">
+      <a href="#" class="logo">FoodVizn</a>
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a href="#about" class="main-nav-link">About</a></li>
+          <li>
+            <a href="#how-it-works" class="main-nav-link">How it works</a>
+          </li>
+          <li><a href="#careers" class="main-nav-link">Careers</a></li>
+          <li><a href="#news" class="main-nav-link">News</a></li>
+          <li><a href="#log-in" class="main-nav-link nav-cta">Log in</a></li>
+        </ul>
+      </nav>
+
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section class="hero-section">
+        <div class="hero-container">
+          <div class="hero-text-box">
+            <h1 class="primary-heading">
+              Welcome to online ordering system for restaurants
+            </h1>
+            <p class="hero-description">
+              Explore and order food online from the nearest
+              restaurants.Simplify the online ordering process. Just select your
+              convinient time and enjoy your favourite food.
+            </p>
+            <a class="btn btn--fullbg margin-right-sm" href="#log-in"
+              >Order now</a
+            >
+            <a class="btn btn--outline" href="#how-it-works">Explore</a>
+          </div>
+          <div class="hero-img-box">
+            <picture>
+              <source srcset="img/hero/hero.webp" type="image/webp" />
+              <source srcset="img/hero/hero.png" type="image/png" />
+
+              <img
+                src="img/hero/hero.png"
+                class="hero-img"
+                alt="Picture of a burger" />
+            </picture>
+          </div>
+        </div>
+      </section>
+
+      <!-- OUR PARTNERS SECTION -->
+      <section class="our-partners">
+        <div class="container">
+          <h2 class="partners-heading">Our partners</h2>
+          <div class="partners-images">
+            <img src="img/partners/columbia.png" alt="Columbia logo" />
+            <img src="img/partners/kfc.png" alt="KFC logo" />
+            <img src="img/partners/in-n-out.png" alt="In-n-out logo" />
+            <img src="img/partners/mc-donalds.png" alt="McDonalds logo" />
+            <img
+              src="img/partners/chuck-norris-grill.png"
+              alt="Chuck Norris Grill logo" />
+            <img src="img/partners/grill-cheff.png" alt="Grill Chef logo" />
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section class="about-section" id="about">
+        <div class="container">
+          <span class="subheading">About us</span>
+          <h2 class="secondary-heading margin-bottom-md">
+            Overview and Mission
+          </h2>
+        </div>
+
+        <div class="container grid grid--2-cols grid--vertical-center">
+          <!-- ABOUT -->
+          <div class="about-text-box">
+            <span class="subheading">Company</span>
+            <h3 class="tertiary-heading">We are FoodVizn</h3>
+            <p class="about-description">
+              We're tech company and the fastest-growing in Europe, Western Asia
+              and Africa. With technology at the core of our business, we create
+              innovative solutions by connecting customers, businesses and
+              couriers.
+            </p>
+          </div>
+          <div class="about-img-box">
+            <img
+              src="img/about/about.png"
+              class="about-img"
+              alt="Picture of a bicycle on the wall" />
+          </div>
+
+          <!-- CITIES -->
+          <div class="about-img-box">
+            <img
+              src="img/about/city.png"
+              class="about-img"
+              alt="Picture of a city" />
+          </div>
+          <div class="about-text-box">
+            <span class="subheading">CITIES</span>
+            <h3 class="tertiary-heading">Cities where you will find us</h3>
+            <p class="about-description">
+              On our website you will be able to choose from for example Fish,
+              Burgers, and Spare ribs. Click on an area to find more information
+              about restaurants there.
+            </p>
+          </div>
+          <!-- RESTAURANTS -->
+          <div class="about-text-box">
+            <span class="subheading">Restaurants</span>
+            <h3 class="tertiary-heading">Restaurants working with us</h3>
+            <p class="about-description">
+              Browse through many restaurants we are working with. With our
+              online food ordering system, clients can now order food online,
+              straight from our website.
+            </p>
+          </div>
+          <div class="about-img-box">
+            <img
+              src="img/about/restaurant.png"
+              class="about-img"
+              alt="People eating in a restaurant" />
+          </div>
+        </div>
+      </section>
+
+      <!-- HOW IT WORKS SECTION -->
+      <section class="how-section" id="how-it-works">
+        <div class="container center-text">
+          <span class="subheading">How it works</span>
+          <h2 class="secondary-heading margin-bottom-md">Easy as that!</h2>
+        </div>
+
+        <div class="container grid grid--3-cols grid--vertical-center">
+          <!-- STEP 1 -->
+          <div class="how-step">
+            <div class="step-icon-box">
+              <ion-icon
+                class="ion-icon location-outline"
+                name="location-outline"></ion-icon>
+            </div>
+            <p class="step-number center-text">Step 1</p>
+            <p class="step-headline center-text">Enter your location</p>
+            <p class="step-description center-text">
+              Enter your street address or let us find your location.
+            </p>
+          </div>
+
+          <!-- STEP 2 -->
+          <div class="how-step">
+            <div class="step-icon-box">
+              <ion-icon class="ion-icon" name="restaurant-outline"></ion-icon>
+            </div>
+            <p class="step-number center-text">Step 2</p>
+            <p class="step-headline center-text">
+              Choose your restaurant and food
+            </p>
+            <p class="step-description center-text">
+              What do you fancy? Browse through countless menus and reviews..
+            </p>
+          </div>
+
+          <!-- STEP 3 -->
+          <div class="how-step">
+            <div class="step-icon-box">
+              <ion-icon class="ion-icon" name="fast-food-outline"></ion-icon>
+            </div>
+            <p class="step-number center-text">Step 3</p>
+            <p class="step-headline center-text">
+              Pay and get your food delivered
+            </p>
+            <p class="step-description center-text">
+              Pay cash or online with Cash payment, Creditcard, and PayPal. Bon
+              appetit!
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- DOWNLOAD APP SECTION -->
+      <section class="download-app-section">
+        <div class="container grid grid--2-cols">
+          <div class="download-app-text-box">
+            <h2 class="secondary-heading">Download the app</h2>
+            <p class="download-app-description">
+              With this app you can take online orders directly on your
+              smartphone or tablet. Each time an order is placed, you get a
+              real-time notification on your device. All it takes now is a tap
+              for you to confirm it right away.
+            </p>
+            <div class="app-icons">
+              <a href="#">
+                <img
+                  src="img/download-app/app-store.png"
+                  class="app-store-icon margin-right-sm"
+                  alt="apple store icon" />
+              </a>
+
+              <a href="#">
+                <img
+                  src="img/download-app/google-play.png"
+                  class="app-store-icon"
+                  alt="google play store icon" />
+              </a>
+            </div>
+          </div>
+
+          <div class="download-app-img-box">
+            <img
+              src="img/download-app/download-app-photo.png"
+              class="download-app-img"
+              alt="Hand holding a phone" />
+          </div>
+        </div>
+      </section>
+
+      <!-- CAREERS SECTION -->
+      <section class="careers-section" id="careers">
+        <div class="container center-text">
+          <span class="subheading">Careers</span>
+          <h2 class="secondary-heading margin-bottom-md">
+            Get paid to deliver!
+          </h2>
+        </div>
+
+        <div class="container grid grid--3-cols grid--vertical-center">
+          <div class="how-step">
+            <div class="step-icon-box">
+              <ion-icon class="ion-icon" name="bicycle-outline"></ion-icon>
+            </div>
+            <p class="step-headline center-text">Your vehicle, your time</p>
+            <p class="step-description center-text">
+              Grab your car, bike, or scooter and be a delivery driver whenever
+              you want—for an hour, a weekend, or throughout the week.
+            </p>
+          </div>
+
+          <div class="how-step">
+            <div class="step-icon-box">
+              <ion-icon class="ion-icon" name="cash-outline"></ion-icon>
+            </div>
+            <p class="step-headline center-text">Get paid quickly</p>
+            <p class="step-description center-text">
+              When you get paid to deliver using FoodVizn, your earnings are
+              automatically transferred to your bank account every week.
+            </p>
+          </div>
+
+          <div class="how-step">
+            <div class="step-icon-box">
+              <ion-icon
+                class="ion-icon"
+                name="phone-portrait-outline"></ion-icon>
+            </div>
+            <p class="step-headline center-text">Track your earnings</p>
+            <p class="step-description center-text">
+              Before you accept any order, you'll be able to see how much you'll
+              get paid to deliver it. In addition, customers have the option to
+              tip in-app.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS SECTION -->
+      <section class="testimonials-section">
+        <div class="testimonials-container">
+          <span class="subheading">Testimonials</span>
+          <h2 class="secondary-heading">
+            We thank our customers for these great testimonials!
+          </h2>
+
+          <div class="testimonials">
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of Jane Doe"
+                src="img/gallery/testimonial-1.jpg" />
+              <blockquote class="testimonial-text">
+                I wanted to thank you for the awesome box of fresh produce. The
+                items are fantastic, and I appreciate the awesome service.
+              </blockquote>
+              <p class="testimonial-name">&mdash;Jane Doe</p>
+            </figure>
+
+            <figure class="testimonial">
+              <img
+                class="testimonial-img"
+                alt="Photo of John Smith"
+                src="img/gallery/testimonial-2.jpg" />
+              <blockquote class="testimonial-text">
+                Everything is totally amazing! I have already raved about you to
+                all my neighbors, friends and family. Also, everything so far
+                tastes great!
+              </blockquote>
+              <p class="testimonial-name">&mdash;John Smith</p>
+            </figure>
+          </div>
+        </div>
+
+        <div class="gallery">
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-1.png"
+              alt="Photo of a beautifully arranged food" />
+            <!-- <figcaption>Caption</figcaption> -->
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-2.png"
+              alt="Photo of a beautifully arranged food" />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-3.png"
+              alt="Photo of a beautifully arranged food" />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-4.png"
+              alt="Photo of a beautifully arranged food" />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-5.png"
+              alt="Photo of a beautifully arranged food" />
+          </figure>
+          <figure class="gallery-item">
+            <img
+              src="img/gallery/gallery-6.png"
+              alt="Photo of a beautifully arranged food" />
+          </figure>
+        </div>
+      </section>
+
+      <!-- NEWS SECTION -->
+      <section class="news-section" id="news">
+        <div class="container">
+          <span class="subheading">Latest News</span>
+          <h2 class="secondary-heading margin-bottom-md">
+            Discover stories from FoodVizn
+          </h2>
+        </div>
+
+        <div class="container grid grid--3-cols margin-bottom-md">
+          <!-- News 1 -->
+          <a href="#" class="news">
+            <img
+              src="img/news/news-1.png"
+              class="news-img"
+              alt="Female holding a phone" />
+            <div class="news-content">
+              <p class="news-date">
+                <ion-icon name="time-outline"></ion-icon>
+                <span class="news-date"> 1. July 2022</span>
+              </p>
+
+              <h3 class="tertiary-heading">FoodVizn marks 10th anniversary</h3>
+              <p class="text-description">
+                Our company today marks 10 years of operations in Asia with the
+                official opening of its regional headquarters in Singapore...
+              </p>
+            </div>
+          </a>
+
+          <!-- News 2 -->
+          <a href="#" class="news">
+            <img
+              src="img/news/news-2.png"
+              class="news-img"
+              alt="Female holding a phone" />
+            <div class="news-content">
+              <p class="news-date">
+                <ion-icon name="time-outline"></ion-icon>
+                <span class="news-date"> 20. May 2022</span>
+              </p>
+
+              <h3 class="tertiary-heading">Our collaboration with Apple</h3>
+              <p class="text-description">
+                We are announcing a long term collaboration with Apple to launch
+                the foodvizn app on the Apple AppGallery...
+              </p>
+            </div>
+          </a>
+
+          <!-- News 3 -->
+          <a href="#" class="news">
+            <img
+              src="img/news/news-3.png"
+              class="news-img"
+              alt="Female holding a phone" />
+            <div class="news-content">
+              <p class="news-date">
+                <ion-icon name="time-outline"></ion-icon>
+                <span class="news-date"> 11. April 2022</span>
+              </p>
+
+              <h3 class="tertiary-heading">
+                FoodVizn launches instant delivery
+              </h3>
+              <p class="text-description">
+                Our users can now enjoy greater convenience when it comes to
+                parcel deliveries with the availability of its on-demand
+                service...
+              </p>
+            </div>
+          </a>
+        </div>
+
+        <div class="container read-more">
+          <a href="#" class="link">Read more &rarr;</a>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section class="contact-section">
+        <div class="container">
+          <div class="contact">
+            <div class="contact-text-box">
+              <h2 class="secondary-heading">Contact us!</h2>
+              <p class="contact-text">
+                It's food lovers like yourself who inspire us to do what we do.
+                Your comments, ideas and questions push us to go that extra
+                mile, every time. So drop us a line!
+              </p>
+
+              <form class="contact-form" name="contact-form" netlify>
+                <div>
+                  <label for="full-name">Full Name</label>
+                  <input
+                    id="full-name"
+                    name="full-name"
+                    type="text"
+                    placeholder="John Smith"
+                    required />
+                </div>
+
+                <div>
+                  <label for="email">Email address</label>
+                  <input
+                    id="email"
+                    name="email"
+                    type="email"
+                    placeholder="me@example.com"
+                    required />
+                </div>
+
+                <div>
+                  <label for="select-choose">Choose your enquiry type:</label>
+                  <select id="select-choose" name="select-choose" required>
+                    <option value="">Please choose one option:</option>
+                    <option value="General Enquiries & business opportunities">
+                      General Enquiries & business opportunities
+                    </option>
+                    <option value="Press and company enquiries">
+                      Press and company enquiries
+                    </option>
+                    <option value="Marketing - Marketing partnership enquiries">
+                      Marketing - Marketing partnership enquiries
+                    </option>
+                    <option value="Careers - Job related enquiries">
+                      Careers - Job related enquiries
+                    </option>
+                    <option value="Restaurants partnership inquiries">
+                      Restaurants partnership inquiries
+                    </option>
+                  </select>
+                </div>
+
+                <div>
+                  <label for="Your message">Your message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    type="text"
+                    placeholder="Your message..."
+                    rows="5"
+                    required></textarea>
+                </div>
+
+                <button class="btn btn--form">Submit</button>
+              </form>
+            </div>
+            <div
+              class="contact-img-box"
+              role="img"
+              aria-label="Operators at office"></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div class="container grid grid--footer">
+        <!-- SOCIAL MEDIA LINKS -->
+        <div class="logo-col">
+          <a href="#" class="footer-logo">FoodVizn</a>
+
+          <ul class="social-links">
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-instagram"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-facebook"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-twitter"></ion-icon
+              ></a>
+            </li>
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-youtube"></ion-icon
+              ></a>
+            </li>
+
+            <li>
+              <a class="footer-link" href="#"
+                ><ion-icon class="social-icon" name="logo-linkedin"></ion-icon
+              ></a>
+            </li>
+          </ul>
+        </div>
+
+        <!-- CONTACT INFO -->
+        <div class="address-col">
+          <p class="footer-heading">Contact us</p>
+          <address class="contacts">
+            <p class="address">
+              123 Jefferson St., 3nd Floor,<br />
+              New York, NY 10011
+            </p>
+            <p>
+              <a class="footer-link" href="tel:415-201-6370"
+                ><span>tel: </span>122-555-7823</a
+              ><br />
+              <a class="footer-link" href="mailto:hello@omnifood.com"
+                ><span>mail: </span>hello@foodvizn.com</a
+              >
+            </p>
+          </address>
+        </div>
+
+        <!-- RESOURCES -->
+        <div class="resources-col">
+          <p class="footer-heading">Resources</p>
+          <ul class="footer-links">
+            <li><a class="footer-link" href="#">Privacy & terms</a></li>
+            <li><a class="footer-link" href="#">Security </a></li>
+            <li><a class="footer-link" href="#">Help center</a></li>
+          </ul>
+        </div>
+
+        <!-- COMPANY INFO -->
+        <div class="company-col">
+          <p class="footer-heading">Company</p>
+          <ul class="footer-links">
+            <li><a class="footer-link" href="#">About FoodVizn</a></li>
+            <li><a class="footer-link" href="#">For Business</a></li>
+            <li><a class="footer-link" href="#">Our partners</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- COPYRIGHT -->
+      <div class="copyright-row">
+        <hr />
+        <p>Copyright &copy; 2023 by FoodVizn, Inc. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

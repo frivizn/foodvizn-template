@@ -1,0 +1,272 @@
+/* TYPOGRAPHY
+------------------------------------*/
+/*
+  - Font sizes (px)
+  10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+  - Font weights
+  Default: 400
+  Medium: 500
+  Semi-bold: 600
+  Bold: 700
+
+  - Line heights
+  Default: 1
+  Medium: 1.6
+
+  - Letter spacing
+  Default: -0.5px
+  Medium: 1px
+*/
+
+/* WHITESPACE
+------------------------------------*/
+/*
+  - Spacing system (px)
+  2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
+
+/* COLOR PALETTE
+------------------------------------*/
+/*
+  - Primary: #fcaf58
+  - Tints: #fedfbc, #fdcf9b
+  - Shades: #e39e4f
+  - Accents:
+  - Greys: #555 , #333
+*/
+
+/* SHADOWS
+------------------------------------*/
+/*
+  - box-shadow: inset 0 0 0 1px #333;
+*/
+
+/* BORDER-RADIUS
+------------------------------------*/
+/*
+  Default: 30px
+*/
+
+/******************************/
+/* GLOBAL STYLES */
+/******************************/
+
+:root {
+  /* Colors */
+  --primary-color: #fcaf58;
+  --secondary-color: #d59245;
+  --tint-color-1: #fedfbc;
+  --tint-color-2: #fdcf9b;
+  --shade-color-1: #e39e4f;
+  --grey-color-1: #555;
+  --grey-color-2: #333;
+
+  /* Shadows */
+  --box-shadow-inset: inset 0 0 0 1px #333;
+
+  /* Border radius */
+  --border-radius-small: 9px;
+  --border-radius-default: 30px;
+
+  /* Font weight */
+  --font-weight-default: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+
+  /* Line height */
+  --line-height-default: 1;
+  --line-height-small: 1.05;
+  --line-height-medium: 1.6;
+
+  /* Letter spacing */
+  --letter-spacing-default: -0.5px;
+  --letter-spacing-medium: 0.75px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  /* font-size: 10px; */
+  font-size: 62.5%;
+  overflow-x: hidden;
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  line-height: var(--line-height-default);
+  font-weight: var(--font-weight-default);
+  color: var(--grey-color-1);
+  overflow-x: hidden;
+}
+
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+/* Grid system */
+
+.grid {
+  display: grid;
+  gap: 9.6rem;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--vertical-center {
+  align-items: center;
+}
+
+.primary-heading,
+.secondary-heading,
+.tertiary-heading {
+  font-weight: var(--font-weight-bold);
+  color: var(--grey-color-2);
+  letter-spacing: var(--letter-spacing-default);
+}
+
+.primary-heading {
+  font-size: 5.2rem;
+  line-height: var(--line-height-small);
+  margin-bottom: 3.2rem;
+}
+
+.secondary-heading {
+  font-size: 3rem;
+  margin-bottom: 3.2rem;
+}
+
+.tertiary-heading {
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+.subheading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: var(--font-weight-bold);
+  color: var(--shade-color-1);
+  text-transform: uppercase;
+  margin-bottom: 0.8rem;
+  letter-spacing: var(--letter-spacing-medium);
+}
+
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: var(--font-weight-semi-bold);
+  padding: 1.6rem 3.2rem;
+  border-radius: var(--border-radius-default);
+  transition: all 0.3s;
+}
+
+.btn--fullbg:link,
+.btn--fullbg:visited {
+  background-color: var(--primary-color);
+  color: var(--grey-color-2);
+}
+
+.btn--fullbg:hover,
+.btn--fullbg:active {
+  background-color: var(--shade-color-1);
+}
+
+.btn--outline:link,
+.btn--outline:visited {
+  background-color: transparent;
+  color: var(--grey-color-2);
+  box-shadow: var(--box-shadow-inset);
+}
+
+.btn--outline:hover,
+.btn--outline:active {
+  background-color: var(--tint-color-2);
+}
+
+.btn--form {
+  border: 1px solid #000;
+  border-radius: var(--border-radius-small);
+  background-color: transparent;
+  color: #fdf2e9;
+  align-self: end;
+  padding: 1rem;
+  margin-top: 2.4rem;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.btn--form:hover {
+  background-color: #fff;
+  color: var(--grey-color-2);
+}
+
+*:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(230, 125, 34, 0.5);
+}
+
+a {
+  text-decoration: none;
+  color: var(--grey-color-2);
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+.link:link,
+.link:visited {
+  display: inline-block;
+  color: var(--primary-color);
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+
+.link:hover,
+.link:active {
+  color: var(--secondary-color);
+  border-bottom: 1px solid transparent;
+}
+
+/******************************/
+/* HELPER CLASSES */
+/******************************/
+
+.center-text {
+  text-align: center;
+}
+
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+strong {
+  font-weight: 500;
+}

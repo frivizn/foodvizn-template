@@ -1,0 +1,46 @@
+1. hero.png - Photo by <a href="https://unsplash.com/pt-br/@amir_v_ali?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">amirali mirhashemian</a> on <a href="https://unsplash.com/photos/JqnuWlHmDfE?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+2. about.png - Photo by <a href="https://unsplash.com/@sigmund?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sigmund</a> on <a href="https://unsplash.com/photos/ppfg-QuWa8Q?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+3. city.png - Photo by <a href="https://unsplash.com/@thetalkinglens?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Louie Martinez</a> on <a href="https://unsplash.com/photos/IocJwyqRv3M?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+4. restaurant.png - Photo by <a href="https://unsplash.com/ja/@alexhaney?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alex Haney</a> on <a href="https://unsplash.com/photos/CAhjZmVk5H4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    
+5. columbia.png - Photo by <a href="https://unsplash.com/@meadowmariee?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Meadow Marie</a> on <a href="https://unsplash.com/photos/HRrSRRDxlqg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+6.chuck-norris-grill.png - Photo by <a href="https://unsplash.com/@santesson89?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andrea De Santis</a> on <a href="https://unsplash.com/photos/__Svq-KgFNQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+7. mc-donalds.png - Photo by <a href="https://unsplash.com/pt-br/@visualbywahyu?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Visual Karsa</a> on <a href="https://unsplash.com/photos/y8fS7CSN-Vw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+8. in-n-out.png - Photo by <a href="https://unsplash.com/@lanceplaine?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kevin Lanceplaine</a> on <a href="https://unsplash.com/photos/ueusdn9w3S4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+9. lighthouse.png - Photo by <a href="https://unsplash.com/@malgonia_bujalsky?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Malgorzata Bujalska</a> on <a href="https://unsplash.com/photos/MVO2RPpuYco?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+10. grill-chef.png - Photo by <a href="https://unsplash.com/@sebastiano_piazzi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sebastiano Piazzi</a> on <a href="https://unsplash.com/photos/jQL3Ia0P9bQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+11. kfc.png - Photo by <a href="https://unsplash.com/@flub?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Maxime Lebrun</a> on <a href="https://unsplash.com/photos/HqYWQo7l49w?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+         
+12. news-1.png - Photo by <a href="https://unsplash.com/@freestocks?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">freestocks</a> on <a href="https://unsplash.com/photos/m7zKB91brGo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
+13. news-2.png - Photo by <a href="https://unsplash.com/@rowanfreeman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Rowan Freeman</a> on <a href="https://unsplash.com/photos/clYlmCaQbzY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+14. news-3.png - Photo by <a href="https://unsplash.com/@anniespratt?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Annie Spratt</a> on <a href="https://unsplash.com/photos/hCb3lIB8L8E?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+15. phone.png - Photo by <a href="https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">charlesdeluvio</a> on <a href="https://unsplash.com/photos/6OF-Ly-5oJY?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+16. download-app.png - Photo by <a href="https://unsplash.com/@charlesdeluvio?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">charlesdeluvio</a> on <a href="https://unsplash.com/wallpapers/phone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+17. gallery-1.png - Photo by <a href="https://unsplash.com/es/@laideaes?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">JavyGo</a> on <a href="https://unsplash.com/photos/Fue3uL4Zet8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+18. gallery-2.png - Photo by <a href="https://unsplash.com/es/@ismaelparamo?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ismael Paramo</a> on <a href="https://unsplash.com/photos/Cns0h4ypRyA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+              
+19. gallery-3.png - Photo by <a href="https://unsplash.com/@kaip?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kai Pilger</a> on <a href="https://unsplash.com/photos/tL92LY152Sk?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                
+20. gallery-4.png - Photo by <a href="https://unsplash.com/@hsibayan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Hannah Sibayan</a> on <a href="https://unsplash.com/photos/R8xqZT4Lfb8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+               
+21. gallery-5.png - Photo by <a href="https://unsplash.com/@shaikhulud?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Maxim Tolchinskiy</a> on <a href="https://unsplash.com/photos/k9rfkzc_Yy8?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            
+22. gallery-6.png - Photo by <a href="https://unsplash.com/@sigmund?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sigmund</a> on <a href="https://unsplash.com/photos/QUQKQ9Yv-88?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
+23. operators.png - Photo by <a href="https://unsplash.com/@arlington_research?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Arlington Research</a> on <a href="https://unsplash.com/photos/kN_kViDchA0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+                  
